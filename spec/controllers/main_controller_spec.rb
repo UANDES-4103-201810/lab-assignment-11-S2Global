@@ -5,5 +5,4 @@ RSpec.feature 'Index' do
       visit 'main/index'
       expect(page).to have_content('Hello')
     end
-  end
-
+end
